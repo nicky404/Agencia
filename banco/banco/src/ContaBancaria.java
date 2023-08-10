@@ -11,7 +11,7 @@ public class ContaBancaria {
         this.saldo = saldo;
     }
 
-    // Getters
+    
     public String getNumeroAgencia() {
         return numeroAgencia;
     }
@@ -28,7 +28,7 @@ public class ContaBancaria {
         return saldo;
     }
 
-    // Setters
+  
     public void setNumeroAgencia(String numeroAgencia) {
         this.numeroAgencia = numeroAgencia;
     }
@@ -45,7 +45,7 @@ public class ContaBancaria {
         this.saldo = saldo;
     }
 
-    // Outros métodos (depositar, sacar, toString, etc.)
+    
     public void depositar(double valor) {
         saldo += valor;
         System.out.println("Depósito de R$" + valor + " realizado. Novo saldo: R$" + saldo);
