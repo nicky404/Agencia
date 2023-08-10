@@ -21,7 +21,7 @@ public class AgenciaBancaria {
         System.out.print("Digite o número da agência: ");
         String numeroAgencia = scanner.nextLine();
 
-        // Verifica se a agência já existe na lista de agências
+        
         if (!agencias.contains(numeroAgencia)) {
             agencias.add(numeroAgencia);
         }
